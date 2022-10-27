@@ -1,0 +1,37 @@
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card-gaming.css");
+@import url("components/btn-red.css");
+@import url("components/card-grid.css");
+@import url("components/card-title.css");
+@import url("components/title-grid.css");
+@import url("components/header.css");
+
+
+
+body {
+	background-color: #242526;
+}
+
+h1 {
+	color: whitesmoke;
+}
+
+
+@media (max-width: 960px) {
+  .components {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .components {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .components {
+    width: 300px;
+  }
+}
+
+

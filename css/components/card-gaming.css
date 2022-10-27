@@ -1,0 +1,28 @@
+.card-gaming {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(90, 121, 260, 0.5);
+	padding: 8px;
+	box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	margin-left: 30px;
+	flex-wrap: wrap;
+}
+
+.card-gaming img {
+	width: 400px;
+	height: 280px;
+	border-radius: 4px;
+}
+
+.card-gaming h2 {
+	margin-left: 24px;
+	color: whitesmoke;
+	font-family: Nunito, sans-serif;
+}
+
+.card-gaming:hover {
+	background-color: rgba(255, 69, 0, 0.8);
+	transition: 0.6s;
+}
